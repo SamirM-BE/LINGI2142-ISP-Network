@@ -1,0 +1,37 @@
+#! /bin/sh
+ldconfig
+
+# Assigning IP addr for lo
+#ip -6 addr add fde4:7:22:03::/64 dev lo
+#ip -6 addr add fde4:7:22:14::/64 dev lo
+#ip -6 addr add fde4:7:22:24::/64 dev lo
+#ip -6 addr add fde4:7:22:32::/64 dev lo
+#ip -6 addr add fde4:7:22:41::/64 dev lo
+
+
+# Assigning IP addr for P1-eth0
+ip link set dev DJAF2-eth0 up
+ip -6 addr add fde4:7:29::9/64 dev DJAF2-eth0
+
+# Assigning IP addr for P1-eth1
+ip link set dev DJAF2-eth1 up
+ip -6 addr add fde4:7:09::9/64 dev DJAF2-eth1
+# Assigning IP addr for P1-eth1
+ip link set dev DJAF2-eth2 up
+ip -6 addr add fde4:7:69::9/64 dev DJAF2-eth2
+
+# Assigning IP addr for P1-eth1
+ip link set dev DJAF2-eth3 up
+ip -6 addr add fde4:7:79::9/64 dev DJAF2-eth3
+
+# Assigning IP addr for P1-eth1
+ip link set dev DJAF2-eth4 up
+ip -6 addr add fde4:7:89::9/64 dev DJAF2-eth4
+
+# zebra is required to make the link between all FRRouting daemons
+# and the linux kernel routing table
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/djaf2.api -i /tmp/djaf2_zebra.pid &
+# launching FRRouting OSPF daemon
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/djaf2_ospf.conf -z /tmp/djaf2.api -i /tmp/djaf2_ospf6d.pid -A 127.0.0.1
+
+

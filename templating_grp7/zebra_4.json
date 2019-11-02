@@ -1,0 +1,23 @@
+{
+  "hostname": "router1",
+  "passwd": "zebra",
+  "passEn": "zebra",
+  "interfaces": [
+    {
+      "name": "DJAF0-eth0",
+      "link": "SAMIR0",
+    },
+    {
+      "name": "DJAF0-eth1",
+      "link": "SAMIR0",
+    },
+    {
+      "name": "DJAF0-eth2",
+      "link": "SAMIR1",
+    },
+    {
+      "name": "DJAF0-eth3",
+      "link": "SAMIR1",
+    }
+  ]
+}

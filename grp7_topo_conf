@@ -1,0 +1,116 @@
+#!/bin/bash
+
+# Create a virtual network using network namespaces and veth pairs
+# to connect them.
+# Assuming $CONFIGDIR == "cfg":
+# * Files in cfg/<Node name> will be overlaid over /etc, i.e. if a file with
+# the same name exists in both directory, the one in cfg/<Node name> will
+# be the one used.
+# * If cfg/<Node name>_$BOOT (defaults to cfg/<Node name>_boot) exists and
+# is executable, it will be executed when the node is created
+# * If cfg/<Node name>_$STARTUP (defaults to cfg/<Node name>_start) exists and
+# is executable, it will be executed when the whole network has started
+#
+
+# IMPORTANT NOTE: Node names MUST NOT exceed 9 characters.
+# This is due to the limitation to 14 characters of interface names
+
+# You can override any of these settings on a per-topology basis
+# Group number
+GROUPNUMBER=7
+# Node configs
+CONFIGDIR=grp7_cfg
+# boot script name
+BOOT="boot"
+# startup script name
+STARTUP="start"
+PREFIXBASE="fde4:${GROUPNUMBER}"
+PREFIXLEN=32
+# You can reuse the above two to generate ip addresses/routes, ...
+# e.g. "${PREFIXBASE}:1234::/$((PREFIXLEN+16))"
+
+# This function describes the network topology that we want to emulate
+function mk_topo {
+    echo "@@ Adding links and nodes"
+    #
+    #   PIERRE0---PIERRE1   ----------------   DJAF0----DJAF1
+    #	    \    /                                 \     /
+    #       PIERRE2                                 DJAF2
+    #
+    #          \   \                             /   /
+    #           \   \                          /    /
+    #            \   \                       /    /
+    #             \   \                    /     /
+    #              \   \                 /     /
+    #               \   \              /      /
+    #                \   \            /      /
+    #                 \   \          /      /
+    #                  \   \        /      /
+    #                   \                 /
+    #                    \    SAMIR0     /
+    #                         /  |  \
+    #                    SAMIR1--|-SAMIR2
+    #                        \   |   /
+    #                         SAMIR3
+    #
+    #
+    #
+    #              
+    #
+    #
+    # Nodes are creadted on the fly, and their interface are assigned as
+    # <node name>-eth<count>, where count starts at 0 and is increased by 1
+    # after each new interface
+    
+    #Nouvelles config de Djaf
+    #links between SAMIR
+    #SAMIR0-eth0 links to  SAMIR1-eth0
+    add_link SAMIR0 SAMIR1
+    #SAMIR0-eth1 links to SAMIR3-eth0
+    add_link SAMIR0 SAMIR3
+    #SAMIR0-eth2 links to SAMIR2-eth0
+    add_link SAMIR0 SAMIR2
+    #SAMIR1-eth1 links to SAMIR2-eth1
+    add_link SAMIR1 SAMIR2
+    #SAMIR1-eth2 links to SAMIR3-eth1
+    add_link SAMIR1 SAMIR3
+    #SAMIR2-eth2 links to SAMIR3-eth2
+    add_link SAMIR2 SAMIR3
+
+    #links between SAMIR and Pierro's POP
+    #SAMIR0-eth3 links to PIERROT2-eth0
+    add_link SAMIR0 PIERROT2
+    #SAMIR1-eth3 links to PIERROT2-eth1
+    add_link SAMIR1 PIERROT2
+
+    #links between SAMIR and DJAF's POP
+    #SAMIR2-eth3 links to DJAF2-eth0
+    add_link SAMIR2 DJAF2
+    #SAMIR0-eth4 links to DJAF2-eth1
+    add_link SAMIR0 DJAF2
+    
+    #links between PIERROT
+    #PIERROT0-eth0 links to PIERROT1-eth0
+    add_link PIERROT0 PIERROT1
+    #PIERROT1-eth1 links to PIERROT2-eth2
+    add_link PIERROT1 PIERROT2
+    #PIERROT0-eth1 links to PIERROT2-eth3
+    add_link PIERROT0 PIERROT2
+
+    #links between PIERROT and DJAF's POP
+    #PIERROT1-eth2 links to DJAF0-eth0
+    add_link PIERROT1 DJAF0
+    #PIERROT2-eth4 links to DJAF2-eth2
+    add_link PIERROT2 DJAF2
+
+    #link between DJAF
+    #DJAF0-eth1 links to DJAF1-eth0
+    add_link DJAF0 DJAF1
+    #DJAF0-eth2 links to DJAF2-eth3
+    add_link DJAF0 DJAF2
+    #DJAF1-eth1 links to DJAF2-eth4
+    add_link DJAF1 DJAF2
+
+}
+
+

@@ -1,0 +1,30 @@
+#! /bin/sh
+ldconfig
+
+# Assigning IP addr for lo
+#ip -6 addr add fde4:7:02:03::/64 dev lo
+#ip -6 addr add fde4:7:02:13::/64 dev lo
+#ip -6 addr add fde4:7:02:21::/64 dev lo
+#ip -6 addr add fde4:7:02:31::/64 dev lo
+#ip -6 addr add fde4:7:02:42::/64 dev lo
+
+# Assigning IP addr for P1-eth1
+ip link set dev PIERROT2-eth0 up
+ip -6 addr add fde4:7:06::6/64 dev PIERROT2-eth0
+
+ip link set dev PIERROT2-eth1 up
+ip -6 addr add fde4:7:16::6/64 dev PIERROT2-eth1
+
+ip link set dev PIERROT2-eth2 up
+ip -6 addr add fde4:7:56::6/64 dev PIERROT2-eth2
+
+ip link set dev PIERROT2-eth3 up
+ip -6 addr add fde4:7:46::6/64 dev PIERROT2-eth3
+
+ip link set dev PIERROT2-eth4 up
+ip -6 addr add fde4:7:69::6/64 dev PIERROT2-eth4
+# zebra is required to make the link between all FRRouting daemons
+# and the linux kernel routing table
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/pierrot2.api -i /tmp/pierrot2_zebra.pid &
+# launching FRRouting OSPF daemon
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/pierrot2_ospf.conf -z /tmp/pierrot2.api -i /tmp/pierrot2_ospf6d.pid -A 127.0.0.1

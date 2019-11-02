@@ -1,0 +1,1 @@
+{"passwd": "zebra", "router_id": "0.251.23.5", "interfaces": [{"name": "eth0", "hello_time": 40, "area": "0.0.0.0", "instance_id": 0, "cost": 15, "dead_time": 60, "active": true}, {"name": "eth1", "hello_time": 40, "area": "0.0.0.0", "instance_id": 0, "cost": 15, "dead_time": 60, "active": true}], "hostname": "YEAH", "name": "YEAH"}

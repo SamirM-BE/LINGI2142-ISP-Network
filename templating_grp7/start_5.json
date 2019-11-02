@@ -1,0 +1,26 @@
+{
+  "name": "Swanky",
+  "interfaces": [
+    {
+      "nEth": 0,
+      "dest": "DJAF0"
+    },
+    {
+      "nEth": 1,
+      "dest": "DJAF1"
+    },
+    {
+      "nEth": 2,
+      "dest": "DJAF2"
+    },
+    {
+      "nEth": 3,
+      "dest": "SAMIR0"
+    },
+    {
+      "nEth": 4,
+      "dest": "SAMIR1"
+    }
+  ] 
+}
+
