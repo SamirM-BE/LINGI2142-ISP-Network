@@ -13,8 +13,14 @@ ip link set dev PIERROT0-eth1 up
 ip -6 addr add fde4:7:46::4/64 dev PIERROT0-eth1
 
 
+ip link set dev thomas up
+ip -6 addr add fde4::7:cafe/64 dev thomas
+
+
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/pierrot0.api -i /tmp/pierrot0_zebra.pid &
 # launching FRRouting OSPF daemon
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/pierrot0_ospf.conf -z /tmp/pierrot0.api -i /tmp/pierrot0_ospf6d.pid -A 127.0.0.1
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/pierrot0_ospf.conf -z /tmp/pierrot0.api -i /tmp/pierrot0_ospf6d.pid -A 127.0.0.1 &
+
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/pierrot0_bgp.conf -z /tmp/pierrot0.api -i /tmp/pierrot0_bgpd.pid -A 127.0.0.1

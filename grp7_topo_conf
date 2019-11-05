@@ -111,6 +111,8 @@ function mk_topo {
     #DJAF1-eth1 links to DJAF2-eth4
     add_link DJAF1 DJAF2
 
+    bridge_node PIERROT0 eth3 thomas
+
 }
 
 
