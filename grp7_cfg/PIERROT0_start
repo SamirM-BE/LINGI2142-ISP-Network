@@ -4,13 +4,14 @@ ldconfig
 # Assigning IP addr for lo
 #ip -6 addr add fde4:7:0:0::/64 dev lo
 #ip -6 addr add fde4:7:0:13::/64 dev lo
-
+ip link set dev lo up
+ip -6 addr add fde4:7::5/128 dev lo
 # Assigning IP addr for P1-eth0
 ip link set dev PIERROT0-eth0 up
-ip -6 addr add fde4:7:45::4/64 dev PIERROT0-eth0
+ip -6 addr add fde4:7:56::5/64 dev PIERROT0-eth0
 # Assigning IP addr for P1-eth1
 ip link set dev PIERROT0-eth1 up
-ip -6 addr add fde4:7:46::4/64 dev PIERROT0-eth1
+ip -6 addr add fde4:7:57::5/64 dev PIERROT0-eth1
 
 
 ip link set dev thomas up
