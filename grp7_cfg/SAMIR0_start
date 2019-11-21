@@ -18,20 +18,15 @@ ip -6 addr add fde4:7:12::1/64 dev SAMIR0-eth0
 # Assigning IP addr for P1-eth1
 ip link set dev SAMIR0-eth1 up
 ip -6 addr add fde4:7:14::1/64 dev SAMIR0-eth1
-# Assigning IP addr for P1-eth1
-ip link set dev SAMIR0-eth2 up
-ip -6 addr add fde4:7:13::1/64 dev SAMIR0-eth2
-# Assigning IP addr for P1-eth1
-ip link set dev SAMIR0-eth3 up
-ip -6 addr add fde4:7:17::1/64 dev SAMIR0-eth3
-# Assigning IP addr for P1-eth1
-ip link set dev SAMIR0-eth4 up
-ip -6 addr add fde4:7:110::1/64 dev SAMIR0-eth4
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/samir0.api -i /tmp/samir0_zebra.pid &
 # launching FRRouting OSPF daemon
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/samir0_ospf.conf -z /tmp/samir0.api -i /tmp/samir0_ospf6d.pid -A 127.0.0.1
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/samir0_ospf.conf -z /tmp/samir0.api -i /tmp/samir0_ospf6d.pid -A 127.0.0.1 &
+
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/samir0_bgp.conf -z /tmp/samir0.api -i /tmp/samir0_bgpd.pid -A 127.0.0.1
+
+
 
 

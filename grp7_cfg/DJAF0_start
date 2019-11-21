@@ -11,23 +11,17 @@ ip -6 addr add fde4:7::8/128 dev lo
 
 # Assigning IP addr for P1-eth0
 ip link set dev DJAF0-eth0 up
-ip -6 addr add fde4:7:68::8/64 dev DJAF0-eth0
+ip -6 addr add fde4:7:38::8/64 dev DJAF0-eth0
 
 # Assigning IP addr for P1-eth1
 ip link set dev DJAF0-eth1 up
-ip -6 addr add fde4:7:89::8/64 dev DJAF0-eth1
-
-# Assigning IP addr for P1-eth1
-ip link set dev DJAF0-eth2 up
-ip -6 addr add fde4:7:810::8/64 dev DJAF0-eth2
-
-
-
+ip -6 addr add fde4:7:810::8/64 dev DJAF0-eth1
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/djaf0.api -i /tmp/djaf0_zebra.pid &
 # launching FRRouting OSPF daemon
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/djaf0_ospf.conf -z /tmp/djaf0.api -i /tmp/djaf0_ospf6d.pid -A 127.0.0.1
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/djaf0_ospf.conf -z /tmp/djaf0.api -i /tmp/djaf0_ospf6d.pid -A 127.0.0.1 &
 
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/djaf0_bgp.conf -z /tmp/djaf0.api -i /tmp/djaf0_bgpd.pid -A 127.0.0.1
 
