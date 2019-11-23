@@ -1,0 +1,110 @@
+[
+ {
+    "filename": "djaf0_ospf",
+    "hostname": "DJAF0",
+    "passwd": "zebra",
+    "router_id": "1.2.3.8",
+    "interfaces": [
+      {
+        "name": "DJAF0-eth0",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      },
+      {
+        "name": "DJAF0-eth1",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      }
+    ,{
+        "name": "lo",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      }
+    ]
+ },
+
+{
+    "filename": "djaf1_ospf",
+    "hostname": "DJAF1",
+    "passwd": "zebra",
+    "router_id": "1.2.3.9",
+    "interfaces": [
+      {
+        "name": "DJAF1-eth0",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      },
+      {
+        "name": "DJAF1-eth1",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      },
+      {
+        "name": "lo",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      }
+
+    ]
+ },
+{
+    "filename": "djaf2_ospf",
+    "hostname": "DJAF2",
+    "passwd": "zebra",
+    "router_id": "1.2.3.10",
+    "interfaces": [
+      {
+        "name": "DJAF2-eth0",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      },
+      {
+        "name": "DJAF2-eth1",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      },
+      {
+        "name": "lo",
+        "cost": 5,
+        "hello_time": 10,
+        "dead_time": 40,
+        "instance_id": 0,
+        "area": "0.0.0.0",
+        "active": true
+      }
+    ]   
+ }
+]
+

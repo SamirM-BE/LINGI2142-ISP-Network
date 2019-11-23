@@ -15,21 +15,22 @@ def main(args):
         if not args.output:
             args.output.close()
         for conf in data:
-            with open("../grp7_cfg/"+conf['hostname']+"/"+conf['filename']+".conf", 'w') as f:
+            with open("%s" % conf['name']+".conf", 'w') as f:
                 f.write(template.render(data=conf))
 
 
 if __name__ == '__main__':
     parser = ArgumentParser(description="Simple script that will generate a configuration file "
-                                        "according to the template and the JSON file given at arguments")
+                                        "according to the template and the JSON file given at argume$
     parser.add_argument('-i', '--input', type=FileType('r'), default=sys.stdin,
                         help='JSON formatted file path containing data for the template')
-    parser.add_argument('-t', '--template', type=str, required=True, help='Path to the Mako based template')
+    parser.add_argument('-t', '--template', type=str, required=True, help='Path to the Mako based te$
     parser.add_argument('-o', '--output', type=FileType('w'), default=sys.stdout,
-                        help='File path where to write the final file. Variables of the JSON file will be applied to '
+                        help='File path where to write the final file. Variables of the JSON file wi$
                              'the template given with the "-t" argument')
     parser.add_argument('-m', '--multiple', action='store_true', required=False,
                         help="If set, the JSON is a list of file to generate. "
                              "If not set, it is a configuration for a single file.")
 
     main(parser.parse_args())
+

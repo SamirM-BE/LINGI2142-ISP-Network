@@ -1,0 +1,129 @@
+[
+  {
+    "router-id": "1.2.3.5",
+    "as": "65007",
+    "filename": "pierrot0_bgp",
+    "ebgp": true,
+    "prefix": "fde4:7::/32",
+    "hostname": "PIERROT0",
+    "addresses": [
+      {
+        "addr": "fde4::1",
+        "remote-as": 64512,
+        "route-reflector": false,
+        "isp": true,
+        "interface": "thomas",
+        "next": false
+      },
+      {
+        "addr": "fde4:7::7",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": true
+      },
+      {
+        "addr": "fde4:7::2",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": true
+      },
+      {
+        "addr": "fde4:7::1",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": true
+      },
+      {
+        "addr": "fde4::7:dead",
+        "remote-as": 65006,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "grp6",
+        "next": false
+      },
+      {
+        "addr": "fde4::5:face",
+        "remote-as": 65005,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "grp5",
+        "next": false
+      },
+      {
+        "addr": "fde4::8:beef",
+        "remote-as": 65008,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "grp8",
+        "next": false
+      }
+    ]
+  },
+  {
+    "router-id": "1.2.3.6",
+    "as": "65007",
+    "filename": "pierrot1_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "PIERROT1",
+    "addresses": [
+      {
+        "addr": "fde4:7::7",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7::2",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7::1",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  },
+  {
+    "router-id": "1.2.3.7",
+    "as": "65007",
+    "filename": "pierrot2_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "PIERROT2",
+    "addresses": [
+      {
+        "addr": "fde4:7::5",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7::6",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  }
+]
+

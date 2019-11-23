@@ -1,5 +1,5 @@
 !
-! OSPF configuration for ${data['name']}
+! OSPF configuration for ${data['hostname']}
 !
 hostname ${data['hostname']}
 password ${data['passwd']}
@@ -21,8 +21,9 @@ interface ${interface['name']}
 !
 %endfor
 router ospf6
-    router-id ${data['router_id']}
+    ospf6 router-id ${data['router_id']}
     %for nic in data['interfaces']:
     interface ${nic['name']} area ${nic['area']}
     %endfor
 !
+
