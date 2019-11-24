@@ -1,0 +1,71 @@
+[
+{
+  "name": "PIERROT0_start",
+  "routeur":"PIERROT0",
+  "id": "5",
+  "filename": "pierrot0",
+  "ebgp": true,
+  "interfaces": [
+    {
+      "name": "eth0",
+      "link": "25"
+    },
+    {
+      "name": "eth1",
+      "link": "57"
+    }
+  ],
+  "peers": [
+    {
+      "interface": "thomas",
+      "addr": "fde4::7:cafe"
+    },
+    {
+      "interface": "grp6",
+      "addr": "fde4::7:beef"
+    },
+    {
+      "interface": "grp8",
+      "addr": "fde4::8:dead"
+    }
+  ]
+},
+
+{
+  "name": "PIERROT1_start",
+  "routeur":"PIERROT1",
+  "id": "6",
+  "filename": "pierrot1",
+  "ebgp": false,
+  "interfaces": [
+    {
+      "name": "eth0",
+      "link": "26"
+    },
+    {
+      "name": "eth1",
+      "link": "67"
+    }
+  ]
+},
+
+{
+  "name": "PIERROT2_start",
+  "routeur":"PIERROT2",
+  "id": "7",
+  "filename": "pierrot2",
+  "ebgp": false,
+  "interfaces": [
+    {
+      "name": "eth0",
+      "link": "57"
+    },
+    {
+      "name": "eth1",
+      "link": "67"
+    }
+  ]
+}
+
+]
+

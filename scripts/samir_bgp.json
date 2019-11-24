@@ -1,0 +1,203 @@
+[
+  {
+    "router-id": "1.2.3.1",
+    "as": "65007",
+    "filename": "samir0_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "SAMIR0",
+    "addresses": [
+      {
+        "addr": "fde4:7:deef:beef::2",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::3",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::4",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::5",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::6",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  },
+  {
+    "router-id": "1.2.3.2",
+    "as": "65007",
+    "filename": "samir1_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "SAMIR1",
+    "addresses": [
+      {
+        "addr": "fde4:7:deef:beef::1",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::3",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::4",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::5",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::6",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  },
+  {
+    "router-id": "1.2.3.3",
+    "as": "65007",
+    "filename": "samir2_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "SAMIR2",
+    "addresses": [
+      {
+        "addr": "fde4:7:deef:beef::1",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::2",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::4",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::8",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::9",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  },
+  {
+    "router-id": "1.2.3.4",
+    "as": "65007",
+    "filename": "samir3_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "SAMIR3",
+    "addresses": [
+      {
+        "addr": "fde4:7:deef:beef::1",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::2",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::3",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::8",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::9",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  }
+]
+

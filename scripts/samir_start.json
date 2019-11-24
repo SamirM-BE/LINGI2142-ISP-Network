@@ -1,0 +1,92 @@
+[
+
+{
+  "name": "SAMIR0_start",
+  "routeur":"SAMIR0",
+  "id": "1",
+  "filename": "samir0",
+  "ebgp": false,
+  "interfaces": [
+    {
+      "name": "eth0",
+      "link": "12"
+    },
+    {
+      "name": "eth1",
+      "link": "14"
+    }
+  ]
+},
+
+{
+  "name": "SAMIR1_start",
+  "routeur":"SAMIR1",
+  "id": "2",
+  "filename": "samir1",
+  "ebgp": false,
+  "interfaces": [
+    {
+      "name": "eth0",
+      "link": "12"
+    },
+    {
+      "name": "eth1",
+      "link": "25"
+    },
+    {
+      "name": "eth2",
+      "link": "26"
+    },
+    {
+      "name": "eth3",
+      "link": "23"
+    }
+  ]
+},
+{
+  "name": "SAMIR2_start",
+  "routeur":"SAMIR2",
+  "id": "3",
+  "filename": "samir2",
+  "ebgp": false,
+  "interfaces": [
+    {
+      "name": "eth0",
+      "link": "23"
+    },
+    {
+      "name": "eth1",
+      "link": "38"
+    },
+    {
+      "name": "eth2",
+      "link": "39"
+    },
+    {
+      "name": "eth3",
+      "link": "34"
+    }
+  ]
+},
+
+{
+  "name": "SAMIR3_start",
+  "routeur":"SAMIR3",
+  "id": "4",
+  "filename": "samir3",
+  "ebgp": false,
+  "interfaces": [
+    {
+      "name": "eth0",
+      "link": "14"
+    },
+    {
+      "name": "eth1",
+      "link": "34"
+    }
+  ]
+}
+
+
+]
+

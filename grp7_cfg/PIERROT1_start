@@ -1,0 +1,23 @@
+#! /bin/sh
+ldconfig
+
+# Assigning IP addr for lo
+ip link set dev lo up
+ip -6 addr add fde4:7:deef:beef::6/128 dev lo
+
+# Assigning IP addr for PIERROT1-eth0
+ip link set dev PIERROT1-eth0 up
+ip -6 addr add fde4:7:baba:26::6/64 dev PIERROT1-eth0
+#
+# Assigning IP addr for PIERROT1-eth1
+ip link set dev PIERROT1-eth1 up
+ip -6 addr add fde4:7:baba:67::6/64 dev PIERROT1-eth1
+#
+
+# zebra is required to make the link between all FRRouting daemons
+# and the linux kernel routing table
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/pierrot1.api -i /tmp/pierrot1_zebra.pid &
+# launching FRRouting OSPF daemon
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/pierrot1_ospf.conf -z /tmp/pierrot1.api -i /tmp/pierrot1_ospf6d.pid -A 127.0.0.1 &
+
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/pierrot1_bgp.conf -z /tmp/pierrot1.api -i /tmp/pierrot1_bgpd.pid -A 127.0.0.1

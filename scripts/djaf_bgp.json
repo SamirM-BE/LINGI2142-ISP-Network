@@ -1,0 +1,97 @@
+[
+  {
+    "router-id": "1.2.3.8",
+    "as": "65007",
+    "filename": "djaf0_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "DJAF0",
+    "addresses": [
+      {
+        "addr": "fde4:7:deef:beef::3",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::4",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::a",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  },
+  {
+    "router-id": "1.2.3.9",
+    "as": "65007",
+    "filename": "djaf1_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "DJAF1",
+    "addresses": [
+      {
+        "addr": "fde4:7:deef:beef::3",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::4",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::a",
+        "remote-as": 65007,
+        "route-reflector": true,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  },
+  {
+    "router-id": "1.2.3.10",
+    "as": "65007",
+    "filename": "djaf2_bgp",
+    "ebgp": false,
+    "prefix": "fde4:7::/32",
+    "hostname": "DJAF2",
+    "addresses": [
+      {
+        "addr": "fde4:7:deef:beef::8",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      },
+      {
+        "addr": "fde4:7:deef:beef::9",
+        "remote-as": 65007,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "lo",
+        "next": false
+      }
+    ]
+  }
+]
+
