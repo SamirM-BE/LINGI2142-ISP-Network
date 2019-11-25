@@ -13,7 +13,7 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": true
       },
       {
         "addr": "fde4:7:deef:beef::4",
@@ -21,7 +21,7 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": true
       },
       {
         "addr": "fde4:7:deef:beef::a",
@@ -29,6 +29,22 @@
         "route-reflector": true,
         "isp": false,
         "interface": "lo",
+        "next": true
+      },
+      {
+        "addr": "fde4::5:face",
+        "remote-as": 65005,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "grp5",
+        "next": false
+      },
+      {
+        "addr": "fde4:8:07::cafe",
+        "remote-as": 65008,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "grp8",
         "next": false
       }
     ]
@@ -47,7 +63,7 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": true
       },
       {
         "addr": "fde4:7:deef:beef::4",
@@ -55,7 +71,7 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": true
       },
       {
         "addr": "fde4:7:deef:beef::a",
@@ -63,6 +79,14 @@
         "route-reflector": true,
         "isp": false,
         "interface": "lo",
+        "next": true
+      },
+      {
+        "addr": "fde4:3::7:cafe",
+        "remote-as": 65003,
+        "route-reflector": false,
+        "isp": false,
+        "interface": "grp3",
         "next": false
       }
     ]

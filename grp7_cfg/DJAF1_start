@@ -13,6 +13,8 @@ ip -6 addr add fde4:7:baba:39::9/64 dev DJAF1-eth0
 ip link set dev DJAF1-eth1 up
 ip -6 addr add fde4:7:baba:9a::9/64 dev DJAF1-eth1
 #
+ip link set dev grp3 up
+ip -6 addr add fde4:3::3:ffff/64 dev grp3
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
@@ -21,3 +23,4 @@ LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.con
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/djaf1_ospf.conf -z /tmp/djaf1.api -i /tmp/djaf1_ospf6d.pid -A 127.0.0.1 &
 
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/djaf1_bgp.conf -z /tmp/djaf1.api -i /tmp/djaf1_bgpd.pid -A 127.0.0.1
+

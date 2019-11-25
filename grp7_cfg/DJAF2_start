@@ -21,3 +21,4 @@ LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.con
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/djaf2_ospf.conf -z /tmp/djaf2.api -i /tmp/djaf2_ospf6d.pid -A 127.0.0.1 &
 
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/djaf2_bgp.conf -z /tmp/djaf2.api -i /tmp/djaf2_bgpd.pid -A 127.0.0.1
+

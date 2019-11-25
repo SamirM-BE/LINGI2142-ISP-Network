@@ -82,9 +82,9 @@ function mk_topo {
 
 
     bridge_node PIERROT0 eth3 thomas
-    bridge_node PIERROT0 eth4 grp6
-    bridge_node PIERROT0 eth5 grp5
-    bridge_node PIERROT0 eth6 grp8
+    bridge_node DJAF0 eth5 grp5
+    bridge_node DJAF0 eth6 grp8
+    bridge_node DJAF1 eth2 grp3
 }
 
 

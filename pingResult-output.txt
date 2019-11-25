@@ -1,0 +1,3327 @@
+=====================================================
+=====================================================
+================PIERROT0=============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=63 time=0.453 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=63 time=0.253 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1018ms
+rtt min/avg/max/mdev = 0.253/0.353/0.453/0.100 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=63 time=0.497 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=63 time=0.240 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.240/0.368/0.497/0.129 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=63 time=0.344 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=63 time=0.200 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.200/0.272/0.344/0.072 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=64 time=0.125 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=64 time=0.273 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.125/0.199/0.273/0.074 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=64 time=0.123 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=64 time=0.248 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.123/0.185/0.248/0.063 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=64 time=0.416 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=64 time=0.232 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.232/0.324/0.416/0.092 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=64 time=0.128 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=64 time=0.220 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.128/0.174/0.220/0.046 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=64 time=0.164 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=64 time=0.268 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.164/0.216/0.268/0.052 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=63 time=0.334 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=63 time=0.251 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.251/0.292/0.334/0.044 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=63 time=0.461 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=63 time=0.341 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1011ms
+rtt min/avg/max/mdev = 0.341/0.401/0.461/0.060 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=63 time=0.188 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=63 time=0.243 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1011ms
+rtt min/avg/max/mdev = 0.188/0.215/0.243/0.031 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=63 time=0.345 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=63 time=0.266 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.266/0.305/0.345/0.043 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=63 time=0.278 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=63 time=0.334 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1014ms
+rtt min/avg/max/mdev = 0.278/0.306/0.334/0.028 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=62 time=0.496 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=62 time=0.365 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.365/0.430/0.496/0.068 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=62 time=0.325 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=62 time=0.276 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.276/0.300/0.325/0.030 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=62 time=0.461 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=62 time=0.321 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.321/0.391/0.461/0.070 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=64 time=0.101 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=64 time=0.144 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.101/0.122/0.144/0.024 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=63 time=0.193 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=63 time=0.254 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.193/0.223/0.254/0.033 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=63 time=0.649 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=63 time=0.248 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.248/0.448/0.649/0.201 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=63 time=0.542 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=63 time=0.234 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.234/0.388/0.542/0.154 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=64 time=0.108 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=64 time=0.179 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.108/0.143/0.179/0.037 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=64 time=0.379 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=64 time=0.260 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.260/0.319/0.379/0.062 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=64 time=0.130 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=64 time=0.229 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.130/0.179/0.229/0.051 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=62 time=0.364 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=62 time=0.359 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.359/0.361/0.364/0.019 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=62 time=0.678 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=62 time=0.471 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.471/0.574/0.678/0.106 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=62 time=0.435 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=62 time=0.280 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.280/0.357/0.435/0.079 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=62 time=0.415 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=62 time=0.341 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.341/0.378/0.415/0.037 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=62 time=0.734 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=62 time=0.240 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.240/0.487/0.734/0.247 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=62 time=0.475 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=62 time=0.410 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.410/0.442/0.475/0.038 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=61 time=0.496 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=61 time=0.468 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.468/0.482/0.496/0.014 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=61 time=0.761 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=61 time=0.392 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.392/0.576/0.761/0.186 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=61 time=0.672 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=61 time=0.320 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1014ms
+rtt min/avg/max/mdev = 0.320/0.496/0.672/0.176 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=64 time=2.01 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=64 time=2.03 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1018ms
+rtt min/avg/max/mdev = 2.013/2.025/2.038/0.046 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1001ms
+
+=====================================================
+=====================================================
+================PIERROT1=============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=63 time=0.422 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=63 time=0.220 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.220/0.321/0.422/0.101 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=63 time=0.242 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=63 time=0.225 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.225/0.233/0.242/0.017 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=63 time=0.255 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=63 time=0.240 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.240/0.247/0.255/0.017 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=64 time=0.106 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=64 time=0.190 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.106/0.148/0.190/0.042 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=64 time=0.101 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=64 time=0.169 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.101/0.135/0.169/0.034 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=64 time=0.139 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=64 time=0.545 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.139/0.342/0.545/0.203 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=64 time=0.321 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=64 time=0.235 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.235/0.278/0.321/0.043 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=64 time=0.117 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=64 time=0.241 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.117/0.179/0.241/0.062 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=63 time=0.327 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=63 time=0.300 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+rtt min/avg/max/mdev = 0.300/0.313/0.327/0.022 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=63 time=0.322 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=63 time=0.294 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.294/0.308/0.322/0.014 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=63 time=0.259 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=63 time=0.283 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.259/0.271/0.283/0.012 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=63 time=0.353 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=63 time=0.284 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.284/0.318/0.353/0.038 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=63 time=0.325 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=63 time=0.299 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.299/0.312/0.325/0.013 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=62 time=0.221 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=62 time=0.232 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.221/0.226/0.232/0.016 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=62 time=0.347 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=62 time=0.300 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.300/0.323/0.347/0.029 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=62 time=0.298 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=62 time=0.332 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.298/0.315/0.332/0.017 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=63 time=0.322 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=63 time=0.219 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.219/0.270/0.322/0.054 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=63 time=0.358 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=63 time=0.295 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.295/0.326/0.358/0.036 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=63 time=0.260 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=63 time=0.301 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.260/0.280/0.301/0.026 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=64 time=0.123 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=64 time=0.136 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.123/0.129/0.136/0.013 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=64 time=0.102 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=64 time=0.156 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.102/0.129/0.156/0.027 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=64 time=0.136 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=64 time=0.195 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.136/0.165/0.195/0.032 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=64 time=0.344 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=64 time=0.223 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.223/0.283/0.344/0.062 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=62 time=0.331 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=62 time=0.309 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1010ms
+rtt min/avg/max/mdev = 0.309/0.320/0.331/0.011 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=62 time=0.554 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=62 time=0.309 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1011ms
+rtt min/avg/max/mdev = 0.309/0.431/0.554/0.124 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=62 time=0.300 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=62 time=0.312 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.300/0.306/0.312/0.006 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=62 time=0.310 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=62 time=0.282 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.282/0.296/0.310/0.014 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=62 time=0.319 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=62 time=0.164 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.164/0.241/0.319/0.079 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=62 time=0.317 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=62 time=0.269 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.269/0.293/0.317/0.024 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=61 time=0.457 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=61 time=0.406 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.406/0.431/0.457/0.032 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=61 time=0.284 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=61 time=0.265 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.265/0.274/0.284/0.019 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=61 time=0.346 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=61 time=0.254 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.254/0.300/0.346/0.046 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=62 time=2.27 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=62 time=2.89 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 2.278/2.588/2.898/0.310 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 999ms
+
+=====================================================
+=====================================================
+================PIERROT2=============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=62 time=0.560 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=62 time=0.304 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.304/0.432/0.560/0.128 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=62 time=0.303 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=62 time=0.382 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.303/0.342/0.382/0.043 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=62 time=0.353 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=62 time=0.272 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.272/0.312/0.353/0.044 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=63 time=0.196 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=63 time=0.248 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.196/0.222/0.248/0.026 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=63 time=0.300 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=63 time=0.312 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.300/0.306/0.312/0.006 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=63 time=0.445 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=63 time=0.269 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.269/0.357/0.445/0.088 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=63 time=0.270 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=63 time=0.335 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.270/0.302/0.335/0.036 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=63 time=0.354 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=63 time=0.240 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.240/0.297/0.354/0.057 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=62 time=0.322 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=62 time=0.227 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.227/0.274/0.322/0.050 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=62 time=0.441 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=62 time=0.341 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.341/0.391/0.441/0.050 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=62 time=0.299 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=62 time=0.256 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.256/0.277/0.299/0.027 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=62 time=0.279 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=62 time=0.265 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.265/0.272/0.279/0.007 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=62 time=0.424 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=62 time=0.288 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.288/0.356/0.424/0.068 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=61 time=0.607 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=61 time=0.267 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.267/0.437/0.607/0.170 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=61 time=0.450 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=61 time=0.280 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.280/0.365/0.450/0.085 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=61 time=0.552 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=61 time=0.427 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.427/0.489/0.552/0.066 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=64 time=0.176 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=64 time=0.287 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.176/0.231/0.287/0.057 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=64 time=0.183 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=64 time=0.252 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.183/0.217/0.252/0.037 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=64 time=0.153 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=64 time=0.147 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.147/0.150/0.153/0.003 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=64 time=0.106 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=64 time=0.244 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.106/0.175/0.244/0.069 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=64 time=0.165 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=64 time=0.182 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.165/0.173/0.182/0.015 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=64 time=0.166 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=64 time=0.314 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1010ms
+rtt min/avg/max/mdev = 0.166/0.240/0.314/0.074 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=64 time=0.105 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=64 time=0.174 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.105/0.139/0.174/0.036 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=61 time=0.431 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=61 time=0.425 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1019ms
+rtt min/avg/max/mdev = 0.425/0.428/0.431/0.003 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=61 time=0.572 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=61 time=0.328 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1017ms
+rtt min/avg/max/mdev = 0.328/0.450/0.572/0.122 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=61 time=0.538 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=61 time=0.493 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.493/0.515/0.538/0.031 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=61 time=0.485 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=61 time=0.357 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.357/0.421/0.485/0.064 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=61 time=0.591 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=61 time=0.314 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.314/0.452/0.591/0.140 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=61 time=0.252 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=61 time=0.432 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.252/0.342/0.432/0.090 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=60 time=0.597 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=60 time=0.479 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.479/0.538/0.597/0.059 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=60 time=0.589 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=60 time=0.318 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.318/0.453/0.589/0.137 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=60 time=0.246 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=60 time=0.282 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.246/0.264/0.282/0.018 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=63 time=1.60 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=63 time=1.92 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1112ms
+rtt min/avg/max/mdev = 1.609/1.767/1.926/0.163 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1009ms
+
+=====================================================
+=====================================================
+================DJAF0================================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=62 time=0.665 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=62 time=0.332 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.332/0.498/0.665/0.167 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=62 time=0.499 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=62 time=0.371 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.371/0.435/0.499/0.064 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=62 time=0.518 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=62 time=0.283 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.283/0.400/0.518/0.119 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=63 time=0.116 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=63 time=0.363 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.116/0.239/0.363/0.124 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=63 time=0.268 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=63 time=0.191 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.191/0.229/0.268/0.041 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=63 time=0.235 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=63 time=0.272 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.235/0.253/0.272/0.024 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=63 time=0.305 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=63 time=0.297 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.297/0.301/0.305/0.004 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=63 time=0.363 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=63 time=0.223 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.223/0.293/0.363/0.070 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=64 time=0.149 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=64 time=0.162 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.149/0.155/0.162/0.014 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=64 time=0.142 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=64 time=0.292 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.142/0.217/0.292/0.075 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=64 time=0.512 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=64 time=0.249 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.249/0.380/0.512/0.132 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=64 time=0.200 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=64 time=0.225 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.200/0.212/0.225/0.019 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=64 time=0.167 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=64 time=0.158 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.158/0.162/0.167/0.013 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=63 time=0.143 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=63 time=0.307 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.143/0.225/0.307/0.082 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=63 time=0.323 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=63 time=0.219 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1011ms
+rtt min/avg/max/mdev = 0.219/0.271/0.323/0.052 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=63 time=0.330 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=63 time=0.350 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1018ms
+rtt min/avg/max/mdev = 0.330/0.340/0.350/0.010 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=62 time=0.366 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=62 time=0.263 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1220ms
+rtt min/avg/max/mdev = 0.263/0.314/0.366/0.054 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=62 time=0.307 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=62 time=0.273 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.273/0.290/0.307/0.017 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=62 time=0.242 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=62 time=0.289 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.242/0.265/0.289/0.028 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=62 time=0.383 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=62 time=0.245 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.245/0.314/0.383/0.069 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=62 time=0.786 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=62 time=0.286 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+rtt min/avg/max/mdev = 0.286/0.536/0.786/0.250 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=62 time=0.304 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=62 time=0.256 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.256/0.280/0.304/0.024 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=61 time=0.382 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=61 time=0.439 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+rtt min/avg/max/mdev = 0.382/0.410/0.439/0.034 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=61 time=0.326 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=61 time=0.339 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.326/0.332/0.339/0.019 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=61 time=0.498 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=61 time=0.383 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.383/0.440/0.498/0.061 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=64 time=0.095 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=64 time=0.133 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.095/0.114/0.133/0.019 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=63 time=0.329 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=63 time=0.285 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.285/0.307/0.329/0.022 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=63 time=0.264 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=63 time=0.263 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.263/0.263/0.264/0.016 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=63 time=0.565 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=63 time=0.295 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.295/0.430/0.565/0.135 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=64 time=0.120 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=64 time=0.215 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.120/0.167/0.215/0.049 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=64 time=0.131 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=64 time=0.183 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.131/0.157/0.183/0.026 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=64 time=0.068 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=64 time=0.332 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.068/0.200/0.332/0.132 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=64 time=7.16 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=64 time=1.31 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 1.315/4.241/7.167/2.926 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1003ms
+
+=====================================================
+=====================================================
+================DJAF1===============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=62 time=0.483 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=62 time=0.198 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+rtt min/avg/max/mdev = 0.198/0.340/0.483/0.143 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=62 time=0.535 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=62 time=0.256 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.256/0.395/0.535/0.140 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=62 time=0.335 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=62 time=0.269 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.269/0.302/0.335/0.033 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=63 time=0.376 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=63 time=0.244 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.244/0.310/0.376/0.066 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=63 time=0.316 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=63 time=0.274 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.274/0.295/0.316/0.021 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=63 time=0.279 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=63 time=0.214 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.214/0.246/0.279/0.036 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=63 time=0.459 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=63 time=0.225 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.225/0.342/0.459/0.117 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=63 time=0.281 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=63 time=0.328 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.281/0.304/0.328/0.029 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=64 time=0.075 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=64 time=0.242 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.075/0.158/0.242/0.084 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=64 time=0.180 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=64 time=0.248 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.180/0.214/0.248/0.034 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=64 time=0.166 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=64 time=0.223 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.166/0.194/0.223/0.031 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=64 time=0.394 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=64 time=0.304 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.304/0.349/0.394/0.045 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=64 time=0.109 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=64 time=0.237 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.109/0.173/0.237/0.064 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=63 time=0.241 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=63 time=0.298 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.241/0.269/0.298/0.032 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=63 time=0.141 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=63 time=0.326 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.141/0.233/0.326/0.093 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=63 time=0.167 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=63 time=0.174 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.167/0.170/0.174/0.013 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=62 time=0.533 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=62 time=0.311 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.311/0.422/0.533/0.111 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=62 time=0.391 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=62 time=0.319 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.319/0.355/0.391/0.036 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=62 time=0.375 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=62 time=0.299 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.299/0.337/0.375/0.038 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=62 time=0.493 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=62 time=0.343 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1011ms
+rtt min/avg/max/mdev = 0.343/0.418/0.493/0.075 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=62 time=0.158 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=62 time=0.381 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.158/0.269/0.381/0.112 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=62 time=0.207 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=62 time=0.344 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.207/0.275/0.344/0.070 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=61 time=0.424 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=61 time=0.603 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.424/0.513/0.603/0.092 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=61 time=0.476 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=61 time=0.408 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.408/0.442/0.476/0.034 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=61 time=0.445 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=61 time=0.281 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.281/0.363/0.445/0.082 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=63 time=0.328 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=63 time=0.312 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.312/0.320/0.328/0.008 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=63 time=0.338 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=63 time=0.295 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.295/0.316/0.338/0.027 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=63 time=0.366 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=63 time=0.279 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1019ms
+rtt min/avg/max/mdev = 0.279/0.322/0.366/0.047 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=64 time=0.126 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=64 time=0.153 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.126/0.139/0.153/0.017 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=64 time=0.136 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=64 time=0.211 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.136/0.173/0.211/0.039 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=64 time=0.207 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=64 time=0.163 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.163/0.185/0.207/0.022 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=64 time=0.106 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=64 time=0.191 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.106/0.148/0.191/0.044 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=61 time=4.03 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=61 time=1.80 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 1.806/2.918/4.031/1.113 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1160ms
+
+=====================================================
+=====================================================
+================DJAF2===============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=61 time=0.379 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=61 time=0.246 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.246/0.312/0.379/0.068 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=61 time=0.496 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=61 time=0.249 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.249/0.372/0.496/0.125 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=61 time=0.238 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=61 time=0.338 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.238/0.288/0.338/0.050 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=62 time=0.396 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=62 time=0.187 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.187/0.291/0.396/0.105 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=62 time=0.168 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=62 time=0.319 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.168/0.243/0.319/0.077 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=62 time=0.316 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=62 time=0.269 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.269/0.292/0.316/0.029 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=62 time=0.387 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=62 time=0.163 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.163/0.275/0.387/0.112 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=62 time=0.229 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=62 time=0.248 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.229/0.238/0.248/0.018 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=63 time=0.175 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=63 time=0.270 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.175/0.222/0.270/0.049 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=63 time=0.298 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=63 time=0.190 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.190/0.244/0.298/0.054 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=63 time=0.280 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=63 time=0.274 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.274/0.277/0.280/0.003 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=63 time=0.372 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=63 time=0.277 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.277/0.324/0.372/0.050 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=63 time=0.178 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=63 time=0.241 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1010ms
+rtt min/avg/max/mdev = 0.178/0.209/0.241/0.034 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=62 time=0.220 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=62 time=0.242 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.220/0.231/0.242/0.011 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=62 time=0.387 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=62 time=0.330 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.330/0.358/0.387/0.034 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=62 time=0.362 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=62 time=0.412 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.362/0.387/0.412/0.025 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=61 time=0.284 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=61 time=0.331 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1016ms
+rtt min/avg/max/mdev = 0.284/0.307/0.331/0.029 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=61 time=0.511 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=61 time=0.412 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.412/0.461/0.511/0.053 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=61 time=0.378 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=61 time=0.416 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.378/0.397/0.416/0.019 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=61 time=0.385 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=61 time=0.420 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.385/0.402/0.420/0.026 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=61 time=0.546 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=61 time=0.276 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.276/0.411/0.546/0.135 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=61 time=0.374 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=61 time=0.346 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.346/0.360/0.374/0.014 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=60 time=0.440 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=60 time=0.386 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.386/0.413/0.440/0.027 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=60 time=0.736 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=60 time=0.478 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.478/0.607/0.736/0.129 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=60 time=0.490 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=60 time=0.199 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.199/0.344/0.490/0.146 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=64 time=0.153 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=64 time=0.204 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.153/0.178/0.204/0.028 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=64 time=0.137 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=64 time=0.161 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.137/0.149/0.161/0.012 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=64 time=0.173 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=64 time=0.141 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.141/0.157/0.173/0.016 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=64 time=0.103 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=64 time=0.189 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.103/0.146/0.189/0.043 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=64 time=0.102 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=64 time=0.206 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.102/0.154/0.206/0.052 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=64 time=0.122 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=64 time=0.190 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.122/0.156/0.190/0.034 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=64 time=0.132 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=64 time=0.147 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.132/0.139/0.147/0.014 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=60 time=1.99 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=60 time=1.90 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 1.906/1.951/1.997/0.063 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1006ms
+
+=====================================================
+=====================================================
+================SAMIR0===============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=64 time=0.095 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=64 time=0.138 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.095/0.116/0.138/0.024 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=64 time=1.37 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=64 time=0.184 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.184/0.779/1.374/0.595 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=64 time=0.243 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=64 time=0.250 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1010ms
+rtt min/avg/max/mdev = 0.243/0.246/0.250/0.016 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=64 time=0.117 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=64 time=0.251 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.117/0.184/0.251/0.067 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=64 time=0.175 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=64 time=0.188 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1010ms
+rtt min/avg/max/mdev = 0.175/0.181/0.188/0.014 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=64 time=0.096 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=64 time=0.265 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1011ms
+rtt min/avg/max/mdev = 0.096/0.180/0.265/0.085 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=63 time=0.521 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=63 time=0.332 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+rtt min/avg/max/mdev = 0.332/0.426/0.521/0.096 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=63 time=0.421 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=63 time=0.316 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.316/0.368/0.421/0.055 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=63 time=0.516 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=63 time=0.411 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.411/0.463/0.516/0.056 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=63 time=0.330 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=63 time=0.158 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.158/0.244/0.330/0.086 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=63 time=0.149 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=63 time=0.205 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.149/0.177/0.205/0.028 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=64 time=0.062 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=64 time=0.201 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.062/0.131/0.201/0.070 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=64 time=0.204 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=64 time=0.265 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.204/0.234/0.265/0.034 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=64 time=0.109 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=64 time=0.237 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.109/0.173/0.237/0.064 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=63 time=0.187 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=63 time=0.205 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.187/0.196/0.205/0.009 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=63 time=0.364 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=63 time=0.259 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.259/0.311/0.364/0.055 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=63 time=0.347 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=63 time=0.206 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.206/0.276/0.347/0.072 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=63 time=0.450 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=63 time=0.215 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.215/0.332/0.450/0.118 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=63 time=0.299 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=63 time=0.207 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.207/0.253/0.299/0.046 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=63 time=0.179 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=63 time=0.166 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.166/0.172/0.179/0.014 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=62 time=0.179 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=62 time=0.264 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.179/0.221/0.264/0.045 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=62 time=0.199 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=62 time=0.204 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.199/0.201/0.204/0.014 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=62 time=0.657 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=62 time=0.224 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.224/0.440/0.657/0.217 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=62 time=0.366 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=62 time=0.252 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.252/0.309/0.366/0.057 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=62 time=0.330 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=62 time=0.318 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.318/0.324/0.330/0.006 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=62 time=0.363 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=62 time=0.314 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.314/0.338/0.363/0.030 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=62 time=0.454 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=62 time=0.260 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.260/0.357/0.454/0.097 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=62 time=0.357 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=62 time=0.309 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.309/0.333/0.357/0.024 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=62 time=0.477 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=62 time=0.293 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.293/0.385/0.477/0.092 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=61 time=0.313 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=61 time=0.512 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1011ms
+rtt min/avg/max/mdev = 0.313/0.412/0.512/0.101 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=61 time=0.979 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=61 time=0.352 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.352/0.665/0.979/0.314 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=61 time=0.258 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=61 time=0.203 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.203/0.230/0.258/0.031 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=62 time=3.23 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=62 time=2.31 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 2.319/2.779/3.239/0.460 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1009ms
+
+=====================================================
+=====================================================
+================SAMIR1===============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=64 time=0.457 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=64 time=0.247 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.247/0.352/0.457/0.105 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=64 time=0.118 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=64 time=0.264 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.118/0.191/0.264/0.073 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=64 time=0.130 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=64 time=0.212 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.130/0.171/0.212/0.041 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=64 time=0.107 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=64 time=0.167 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.107/0.137/0.167/0.030 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=64 time=0.420 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=64 time=0.209 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.209/0.314/0.420/0.106 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=64 time=0.229 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=64 time=0.166 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.166/0.197/0.229/0.034 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=64 time=0.144 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=64 time=0.235 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.144/0.189/0.235/0.047 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=64 time=0.143 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=64 time=0.291 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.143/0.217/0.291/0.074 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=64 time=0.130 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=64 time=0.192 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.130/0.161/0.192/0.031 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=63 time=0.318 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=63 time=0.288 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.288/0.303/0.318/0.015 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=63 time=0.612 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=63 time=0.281 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.281/0.446/0.612/0.166 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=63 time=0.477 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=63 time=0.213 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.213/0.345/0.477/0.132 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=64 time=0.562 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=64 time=0.212 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.212/0.387/0.562/0.175 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=64 time=0.497 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=64 time=0.251 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.251/0.374/0.497/0.123 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=64 time=0.115 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=64 time=0.291 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.115/0.203/0.291/0.088 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=64 time=0.364 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=64 time=0.231 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.231/0.297/0.364/0.068 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=64 time=0.162 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=64 time=0.239 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.162/0.200/0.239/0.041 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=64 time=0.191 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=64 time=0.227 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.191/0.209/0.227/0.018 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=63 time=0.344 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=63 time=0.306 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1036ms
+rtt min/avg/max/mdev = 0.306/0.325/0.344/0.019 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=63 time=0.702 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=63 time=0.221 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.221/0.461/0.702/0.241 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=63 time=0.369 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=63 time=0.224 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.224/0.296/0.369/0.074 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=63 time=0.303 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=63 time=0.210 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.210/0.256/0.303/0.049 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=63 time=0.436 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=63 time=0.191 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.191/0.313/0.436/0.123 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=63 time=0.117 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=63 time=0.211 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.117/0.164/0.211/0.047 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=63 time=0.358 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=63 time=0.245 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.245/0.301/0.358/0.059 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=63 time=0.439 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=63 time=0.229 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.229/0.334/0.439/0.105 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=63 time=0.303 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=63 time=0.320 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.303/0.311/0.320/0.019 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=62 time=0.374 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=62 time=0.364 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.364/0.369/0.374/0.005 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=62 time=0.344 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=62 time=0.376 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.344/0.360/0.376/0.016 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=62 time=0.910 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=62 time=0.253 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.253/0.581/0.910/0.329 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=63 time=2.27 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=63 time=1.83 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 1.831/2.054/2.278/0.228 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1006ms
+
+=====================================================
+=====================================================
+================SAMIR2===============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=63 time=0.528 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=63 time=0.292 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+rtt min/avg/max/mdev = 0.292/0.410/0.528/0.118 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=63 time=0.201 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=63 time=0.276 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+rtt min/avg/max/mdev = 0.201/0.238/0.276/0.040 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=63 time=0.401 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=63 time=0.298 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.298/0.349/0.401/0.054 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=64 time=0.169 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=64 time=0.184 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.169/0.176/0.184/0.015 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=64 time=0.113 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=64 time=0.225 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.113/0.169/0.225/0.056 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=64 time=0.161 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=64 time=0.273 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.161/0.217/0.273/0.056 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=64 time=0.071 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=64 time=0.212 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1021ms
+rtt min/avg/max/mdev = 0.071/0.141/0.212/0.071 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=64 time=0.143 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=64 time=0.141 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.141/0.142/0.143/0.001 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=64 time=0.047 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=64 time=0.103 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.047/0.075/0.103/0.028 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=64 time=0.167 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=64 time=0.185 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.167/0.176/0.185/0.009 ms
+
+=======================towards SAMIR3 interfaces0==========================
+
+PING fde4:7:baba:14::4(fde4:7:baba:14::4) 56 data bytes
+64 bytes from fde4:7:baba:14::4: icmp_seq=1 ttl=64 time=0.111 ms
+64 bytes from fde4:7:baba:14::4: icmp_seq=2 ttl=64 time=0.234 ms
+
+--- fde4:7:baba:14::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.111/0.172/0.234/0.062 ms
+
+=======================towards SAMIR3 interfaces1==========================
+
+PING fde4:7:baba:34::4(fde4:7:baba:34::4) 56 data bytes
+64 bytes from fde4:7:baba:34::4: icmp_seq=1 ttl=64 time=0.142 ms
+64 bytes from fde4:7:baba:34::4: icmp_seq=2 ttl=64 time=0.219 ms
+
+--- fde4:7:baba:34::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.142/0.180/0.219/0.040 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=63 time=0.311 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=63 time=0.264 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.264/0.287/0.311/0.028 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=63 time=0.275 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=63 time=0.242 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.242/0.258/0.275/0.023 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=63 time=0.269 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=63 time=0.249 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.249/0.259/0.269/0.010 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=63 time=0.376 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=63 time=0.303 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.303/0.339/0.376/0.040 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=63 time=0.174 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=63 time=0.283 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.174/0.228/0.283/0.056 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=63 time=0.175 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=63 time=0.172 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.172/0.173/0.175/0.013 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=62 time=0.433 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=62 time=0.331 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.331/0.382/0.433/0.051 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=62 time=0.242 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=62 time=0.250 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.242/0.246/0.250/0.004 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=62 time=0.361 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=62 time=0.296 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.296/0.328/0.361/0.037 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=64 time=0.254 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=64 time=0.235 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.235/0.244/0.254/0.018 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=64 time=0.164 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=64 time=0.149 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.149/0.156/0.164/0.014 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=64 time=0.152 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=64 time=0.224 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1009ms
+rtt min/avg/max/mdev = 0.152/0.188/0.224/0.036 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=64 time=0.249 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=64 time=0.115 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.115/0.182/0.249/0.067 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=64 time=0.094 ms
+64 bytes from fde4:7:baba:39::9: icmp_seq=2 ttl=64 time=0.178 ms
+
+--- fde4:7:baba:39::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.094/0.136/0.178/0.042 ms
+
+=======================towards DJAF1 interfaces1==========================
+
+PING fde4:7:baba:9a::9(fde4:7:baba:9a::9) 56 data bytes
+64 bytes from fde4:7:baba:9a::9: icmp_seq=1 ttl=64 time=0.134 ms
+64 bytes from fde4:7:baba:9a::9: icmp_seq=2 ttl=64 time=0.275 ms
+
+--- fde4:7:baba:9a::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1043ms
+rtt min/avg/max/mdev = 0.134/0.204/0.275/0.071 ms
+
+=======================towards DJAF2 loopback==========================
+
+PING fde4:7:deef:beef::a(fde4:7:deef:beef::a) 56 data bytes
+64 bytes from fde4:7:deef:beef::a: icmp_seq=1 ttl=63 time=0.291 ms
+64 bytes from fde4:7:deef:beef::a: icmp_seq=2 ttl=63 time=0.219 ms
+
+--- fde4:7:deef:beef::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+rtt min/avg/max/mdev = 0.219/0.255/0.291/0.036 ms
+
+=======================towards DJAF2 interfaces0==========================
+
+PING fde4:7:baba:8a::a(fde4:7:baba:8a::a) 56 data bytes
+64 bytes from fde4:7:baba:8a::a: icmp_seq=1 ttl=63 time=0.411 ms
+64 bytes from fde4:7:baba:8a::a: icmp_seq=2 ttl=63 time=0.299 ms
+
+--- fde4:7:baba:8a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1014ms
+rtt min/avg/max/mdev = 0.299/0.355/0.411/0.056 ms
+
+=======================towards DJAF2 interfaces1==========================
+
+PING fde4:7:baba:9a::a(fde4:7:baba:9a::a) 56 data bytes
+64 bytes from fde4:7:baba:9a::a: icmp_seq=1 ttl=63 time=0.257 ms
+64 bytes from fde4:7:baba:9a::a: icmp_seq=2 ttl=63 time=0.251 ms
+
+--- fde4:7:baba:9a::a ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.251/0.254/0.257/0.003 ms
+
+=======================towards Thomas==========================
+
+PING fde4::1(fde4::1) 56 data bytes
+64 bytes from fde4::1: icmp_seq=1 ttl=62 time=2.34 ms
+64 bytes from fde4::1: icmp_seq=2 ttl=62 time=1.46 ms
+
+--- fde4::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 1.463/1.901/2.340/0.440 ms
+
+=======================towards Google==========================
+
+PING 2001:4860:4860::8888(2001:4860:4860::8888) 56 data bytes
+
+--- 2001:4860:4860::8888 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1002ms
+
+=====================================================
+=====================================================
+================SAMIR3===============================
+=====================================================
+=====================================================
+
+=======================towards SAMIR0 loopback==========================
+
+PING fde4:7:deef:beef::1(fde4:7:deef:beef::1) 56 data bytes
+64 bytes from fde4:7:deef:beef::1: icmp_seq=1 ttl=64 time=0.391 ms
+64 bytes from fde4:7:deef:beef::1: icmp_seq=2 ttl=64 time=0.161 ms
+
+--- fde4:7:deef:beef::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.161/0.276/0.391/0.115 ms
+
+=======================towards SAMIR0 interfaces0==========================
+
+PING fde4:7:baba:12::1(fde4:7:baba:12::1) 56 data bytes
+64 bytes from fde4:7:baba:12::1: icmp_seq=1 ttl=64 time=0.152 ms
+64 bytes from fde4:7:baba:12::1: icmp_seq=2 ttl=64 time=0.167 ms
+
+--- fde4:7:baba:12::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.152/0.159/0.167/0.014 ms
+
+=======================towards SAMIR0 interfaces1==========================
+
+PING fde4:7:baba:14::1(fde4:7:baba:14::1) 56 data bytes
+64 bytes from fde4:7:baba:14::1: icmp_seq=1 ttl=64 time=0.108 ms
+64 bytes from fde4:7:baba:14::1: icmp_seq=2 ttl=64 time=0.136 ms
+
+--- fde4:7:baba:14::1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.108/0.122/0.136/0.014 ms
+
+=======================towards SAMIR1 loopback==========================
+
+PING fde4:7:deef:beef::2(fde4:7:deef:beef::2) 56 data bytes
+64 bytes from fde4:7:deef:beef::2: icmp_seq=1 ttl=63 time=0.376 ms
+64 bytes from fde4:7:deef:beef::2: icmp_seq=2 ttl=63 time=0.234 ms
+
+--- fde4:7:deef:beef::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.234/0.305/0.376/0.071 ms
+
+=======================towards SAMIR1 interfaces0==========================
+
+PING fde4:7:baba:12::2(fde4:7:baba:12::2) 56 data bytes
+64 bytes from fde4:7:baba:12::2: icmp_seq=1 ttl=63 time=0.498 ms
+64 bytes from fde4:7:baba:12::2: icmp_seq=2 ttl=63 time=0.214 ms
+
+--- fde4:7:baba:12::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.214/0.356/0.498/0.142 ms
+
+=======================towards SAMIR1 interfaces1==========================
+
+PING fde4:7:baba:25::2(fde4:7:baba:25::2) 56 data bytes
+64 bytes from fde4:7:baba:25::2: icmp_seq=1 ttl=63 time=0.226 ms
+64 bytes from fde4:7:baba:25::2: icmp_seq=2 ttl=63 time=0.251 ms
+
+--- fde4:7:baba:25::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.226/0.238/0.251/0.019 ms
+
+=======================towards SAMIR1 interfaces2==========================
+
+PING fde4:7:baba:26::2(fde4:7:baba:26::2) 56 data bytes
+64 bytes from fde4:7:baba:26::2: icmp_seq=1 ttl=63 time=0.315 ms
+64 bytes from fde4:7:baba:26::2: icmp_seq=2 ttl=63 time=0.234 ms
+
+--- fde4:7:baba:26::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.234/0.274/0.315/0.043 ms
+
+=======================towards SAMIR1 interfaces3==========================
+
+PING fde4:7:baba:23::2(fde4:7:baba:23::2) 56 data bytes
+64 bytes from fde4:7:baba:23::2: icmp_seq=1 ttl=63 time=0.240 ms
+64 bytes from fde4:7:baba:23::2: icmp_seq=2 ttl=63 time=0.214 ms
+
+--- fde4:7:baba:23::2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.214/0.227/0.240/0.013 ms
+
+=======================towards SAMIR2 loopback==========================
+
+PING fde4:7:deef:beef::3(fde4:7:deef:beef::3) 56 data bytes
+64 bytes from fde4:7:deef:beef::3: icmp_seq=1 ttl=64 time=0.108 ms
+64 bytes from fde4:7:deef:beef::3: icmp_seq=2 ttl=64 time=0.147 ms
+
+--- fde4:7:deef:beef::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.108/0.127/0.147/0.022 ms
+
+=======================towards SAMIR2 interfaces0==========================
+
+PING fde4:7:baba:23::3(fde4:7:baba:23::3) 56 data bytes
+64 bytes from fde4:7:baba:23::3: icmp_seq=1 ttl=64 time=0.124 ms
+64 bytes from fde4:7:baba:23::3: icmp_seq=2 ttl=64 time=0.170 ms
+
+--- fde4:7:baba:23::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.124/0.147/0.170/0.023 ms
+
+=======================towards SAMIR2 interfaces1==========================
+
+PING fde4:7:baba:38::3(fde4:7:baba:38::3) 56 data bytes
+64 bytes from fde4:7:baba:38::3: icmp_seq=1 ttl=64 time=0.109 ms
+64 bytes from fde4:7:baba:38::3: icmp_seq=2 ttl=64 time=0.204 ms
+
+--- fde4:7:baba:38::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1010ms
+rtt min/avg/max/mdev = 0.109/0.156/0.204/0.049 ms
+
+=======================towards SAMIR2 interfaces2==========================
+
+PING fde4:7:baba:39::3(fde4:7:baba:39::3) 56 data bytes
+64 bytes from fde4:7:baba:39::3: icmp_seq=1 ttl=64 time=0.139 ms
+64 bytes from fde4:7:baba:39::3: icmp_seq=2 ttl=64 time=0.264 ms
+
+--- fde4:7:baba:39::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1012ms
+rtt min/avg/max/mdev = 0.139/0.201/0.264/0.064 ms
+
+=======================towards SAMIR2 interfaces3==========================
+
+PING fde4:7:baba:34::3(fde4:7:baba:34::3) 56 data bytes
+64 bytes from fde4:7:baba:34::3: icmp_seq=1 ttl=64 time=0.304 ms
+64 bytes from fde4:7:baba:34::3: icmp_seq=2 ttl=64 time=0.200 ms
+
+--- fde4:7:baba:34::3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1004ms
+rtt min/avg/max/mdev = 0.200/0.252/0.304/0.052 ms
+
+=======================towards SAMIR3 loopback==========================
+
+PING fde4:7:deef:beef::4(fde4:7:deef:beef::4) 56 data bytes
+64 bytes from fde4:7:deef:beef::4: icmp_seq=1 ttl=64 time=0.150 ms
+64 bytes from fde4:7:deef:beef::4: icmp_seq=2 ttl=64 time=0.134 ms
+
+--- fde4:7:deef:beef::4 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.134/0.142/0.150/0.008 ms
+
+=======================towards PIERROT0 loopback==========================
+
+PING fde4:7:deef:beef::5(fde4:7:deef:beef::5) 56 data bytes
+64 bytes from fde4:7:deef:beef::5: icmp_seq=1 ttl=62 time=0.370 ms
+64 bytes from fde4:7:deef:beef::5: icmp_seq=2 ttl=62 time=0.241 ms
+
+--- fde4:7:deef:beef::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.241/0.305/0.370/0.066 ms
+
+=======================towards PIERROT0 interfaces0==========================
+
+PING fde4:7:baba:25::5(fde4:7:baba:25::5) 56 data bytes
+64 bytes from fde4:7:baba:25::5: icmp_seq=1 ttl=62 time=0.358 ms
+64 bytes from fde4:7:baba:25::5: icmp_seq=2 ttl=62 time=0.261 ms
+
+--- fde4:7:baba:25::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.261/0.309/0.358/0.051 ms
+
+=======================towards PIERROT0 interfaces1==========================
+
+PING fde4:7:baba:57::5(fde4:7:baba:57::5) 56 data bytes
+64 bytes from fde4:7:baba:57::5: icmp_seq=1 ttl=62 time=0.323 ms
+64 bytes from fde4:7:baba:57::5: icmp_seq=2 ttl=62 time=0.344 ms
+
+--- fde4:7:baba:57::5 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.323/0.333/0.344/0.021 ms
+
+=======================towards PIERROT1 loopback==========================
+
+PING fde4:7:deef:beef::6(fde4:7:deef:beef::6) 56 data bytes
+64 bytes from fde4:7:deef:beef::6: icmp_seq=1 ttl=62 time=0.374 ms
+64 bytes from fde4:7:deef:beef::6: icmp_seq=2 ttl=62 time=0.277 ms
+
+--- fde4:7:deef:beef::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.277/0.325/0.374/0.051 ms
+
+=======================towards PIERROT1 interfaces0==========================
+
+PING fde4:7:baba:26::6(fde4:7:baba:26::6) 56 data bytes
+64 bytes from fde4:7:baba:26::6: icmp_seq=1 ttl=62 time=0.337 ms
+64 bytes from fde4:7:baba:26::6: icmp_seq=2 ttl=62 time=0.246 ms
+
+--- fde4:7:baba:26::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+rtt min/avg/max/mdev = 0.246/0.291/0.337/0.048 ms
+
+=======================towards PIERROT1 interfaces1==========================
+
+PING fde4:7:baba:67::6(fde4:7:baba:67::6) 56 data bytes
+64 bytes from fde4:7:baba:67::6: icmp_seq=1 ttl=62 time=0.423 ms
+64 bytes from fde4:7:baba:67::6: icmp_seq=2 ttl=62 time=0.288 ms
+
+--- fde4:7:baba:67::6 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.288/0.355/0.423/0.070 ms
+
+=======================towards PIERROT2 loopback==========================
+
+PING fde4:7:deef:beef::7(fde4:7:deef:beef::7) 56 data bytes
+64 bytes from fde4:7:deef:beef::7: icmp_seq=1 ttl=61 time=0.341 ms
+64 bytes from fde4:7:deef:beef::7: icmp_seq=2 ttl=61 time=0.360 ms
+
+--- fde4:7:deef:beef::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 999ms
+rtt min/avg/max/mdev = 0.341/0.350/0.360/0.021 ms
+
+=======================towards PIERROT2 interfaces0==========================
+
+PING fde4:7:baba:57::7(fde4:7:baba:57::7) 56 data bytes
+64 bytes from fde4:7:baba:57::7: icmp_seq=1 ttl=61 time=0.387 ms
+64 bytes from fde4:7:baba:57::7: icmp_seq=2 ttl=61 time=0.370 ms
+
+--- fde4:7:baba:57::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.370/0.378/0.387/0.021 ms
+
+=======================towards PIERROT2 interfaces1==========================
+
+PING fde4:7:baba:67::7(fde4:7:baba:67::7) 56 data bytes
+64 bytes from fde4:7:baba:67::7: icmp_seq=1 ttl=61 time=0.354 ms
+64 bytes from fde4:7:baba:67::7: icmp_seq=2 ttl=61 time=0.322 ms
+
+--- fde4:7:baba:67::7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.322/0.338/0.354/0.016 ms
+
+=======================towards DJAF0 loopback==========================
+
+PING fde4:7:deef:beef::8(fde4:7:deef:beef::8) 56 data bytes
+64 bytes from fde4:7:deef:beef::8: icmp_seq=1 ttl=63 time=0.328 ms
+64 bytes from fde4:7:deef:beef::8: icmp_seq=2 ttl=63 time=0.197 ms
+
+--- fde4:7:deef:beef::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.197/0.262/0.328/0.067 ms
+
+=======================towards DJAF0 interfaces0==========================
+
+PING fde4:7:baba:38::8(fde4:7:baba:38::8) 56 data bytes
+64 bytes from fde4:7:baba:38::8: icmp_seq=1 ttl=63 time=0.231 ms
+64 bytes from fde4:7:baba:38::8: icmp_seq=2 ttl=63 time=0.258 ms
+
+--- fde4:7:baba:38::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.231/0.244/0.258/0.020 ms
+
+=======================towards DJAF0 interfaces1==========================
+
+PING fde4:7:baba:8a::8(fde4:7:baba:8a::8) 56 data bytes
+64 bytes from fde4:7:baba:8a::8: icmp_seq=1 ttl=63 time=0.295 ms
+64 bytes from fde4:7:baba:8a::8: icmp_seq=2 ttl=63 time=0.189 ms
+
+--- fde4:7:baba:8a::8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.189/0.242/0.295/0.053 ms
+
+=======================towards DJAF1 loopback==========================
+
+PING fde4:7:deef:beef::9(fde4:7:deef:beef::9) 56 data bytes
+64 bytes from fde4:7:deef:beef::9: icmp_seq=1 ttl=63 time=0.394 ms
+64 bytes from fde4:7:deef:beef::9: icmp_seq=2 ttl=63 time=0.219 ms
+
+--- fde4:7:deef:beef::9 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.219/0.306/0.394/0.089 ms
+
+=======================towards DJAF1 interfaces0==========================
+
+PING fde4:7:baba:39::9(fde4:7:baba:39::9) 56 data bytes
+64 bytes from fde4:7:baba:39::9: icmp_seq=1 ttl=63 time=0.142 ms
