@@ -16,7 +16,7 @@ ip -6 addr add fde4:7:baba:8a::8/64 dev DJAF0-eth1
 ip link set dev grp5 up
 ip -6 addr add fde4::7:face/64 dev grp5
 ip link set dev grp8 up
-ip -6 addr add fde4:8:07::beef/64 dev grp8
+ip -6 addr add fde4:8:a007::beef/64 dev grp8
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table

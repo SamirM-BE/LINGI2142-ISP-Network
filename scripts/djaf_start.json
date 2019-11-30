@@ -22,7 +22,7 @@
     },
     {
       "interface": "grp8",
-      "addr": "fde4:8:07::beef"
+      "addr": "fde4:8:a007::beef"
     }
   ]
 },

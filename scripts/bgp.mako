@@ -10,6 +10,9 @@ router bgp ${data['as']}
  neighbor ${peer['addr']} interface ${peer['interface']}
  %else:
  neighbor ${peer['addr']} update-source ${peer['interface']}
+ %if peer['md5']:
+ neighbor ${peer['addr']} password ${peer['password']}
+ %endif
  %endif
 !
 %endfor

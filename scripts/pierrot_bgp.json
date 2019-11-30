@@ -13,7 +13,9 @@
         "route-reflector": false,
         "isp": true,
         "interface": "thomas",
-        "next": false
+        "next": false,
+        "md5": false,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4:7:deef:beef::1",
@@ -21,7 +23,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": true
+        "next": true,
+        "md5": true,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4:7:deef:beef::2",
@@ -29,7 +33,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": true
+        "next": true,
+        "md5": true,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4:7:deef:beef::7",
@@ -37,7 +43,9 @@
         "route-reflector": true,
         "isp": false,
         "interface": "lo",
-        "next": true
+        "next": true,
+        "md5": true,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4::5:face",
@@ -45,7 +53,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "grp5",
-        "next": false
+        "next": false,
+        "md5": false,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4::7:dead",
@@ -53,7 +63,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "grp6",
-        "next": false
+        "next": false,
+        "md5": false,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4::8:beef",
@@ -61,7 +73,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "grp8",
-        "next": false
+        "next": false,
+        "md5": false,
+        "password": "ABCDEF12345"
       }
     ]
   },
@@ -79,7 +93,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": false,
+        "md5": true,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4:7:deef:beef::2",
@@ -87,7 +103,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": false,
+        "md5": true,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4:7:deef:beef::7",
@@ -95,7 +113,9 @@
         "route-reflector": true,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": false,
+        "md5": true,
+        "password": "ABCDEF12345"
       }
     ]
   },
@@ -113,7 +133,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": false,
+        "md5": true,
+        "password": "ABCDEF12345"
       },
       {
         "addr": "fde4:7:deef:beef::6",
@@ -121,7 +143,9 @@
         "route-reflector": false,
         "isp": false,
         "interface": "lo",
-        "next": false
+        "next": false,
+        "md5": true,
+        "password": "ABCDEF12345"
       }
     ]
   }
