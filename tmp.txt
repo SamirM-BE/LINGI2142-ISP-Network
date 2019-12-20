@@ -1,0 +1,752 @@
+@@ Adding links and nodes
+[INFO] Creating node SAMIR0
+[INFO] Executing boot for node SAMIR0
+[INFO] Creating node SAMIR1
+[INFO] Executing boot for node SAMIR1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Connected SAMIR0-eth0 to SAMIR1-eth0
+[INFO] Creating node SAMIR3
+[INFO] Executing boot for node SAMIR3
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Connected SAMIR0-eth1 to SAMIR3-eth0
+[INFO] Creating node PIERROT0
+[INFO] Executing boot for node PIERROT0
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+[INFO] Connected SAMIR1-eth1 to PIERROT0-eth0
+[INFO] Creating node PIERROT1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Executing boot for node PIERROT1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+[INFO] Connected SAMIR1-eth2 to PIERROT1-eth0
+[INFO] Creating node SAMIR2
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Executing boot for node SAMIR2
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Connected SAMIR1-eth3 to SAMIR2-eth0
+[INFO] Creating node DJAF0
+[INFO] Executing boot for node DJAF0
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Connected SAMIR2-eth1 to DJAF0-eth0
+[INFO] Creating node DJAF1
+[INFO] Executing boot for node DJAF1
+[INFO] Connected SAMIR2-eth2 to DJAF1-eth0
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Connected SAMIR2-eth3 to SAMIR3-eth1
+[INFO] Creating node PIERROT2
+[INFO] Executing boot for node PIERROT2
+[INFO] Connected PIERROT0-eth1 to PIERROT2-eth0
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Connected PIERROT1-eth1 to PIERROT2-eth1
+[INFO] Creating node DJAF2
+[INFO] Executing boot for node DJAF2
+[INFO] Connected DJAF0-eth1 to DJAF2-eth0
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.default.forwarding = 1
+ip6tables v1.4.21: Couldn't load target `ACCE':No such file or directory
+
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+[INFO] Connected DJAF1-eth1 to DJAF2-eth1
+[INFO] Bridged PIERROT0 [thomas] to interface eth3 [breth3/PIERROT0-eth3]
+[INFO] Bridged DJAF0 [grp5] to interface eth5 [breth5/DJAF0-eth5]
+[INFO] Bridged DJAF0 [grp8] to interface eth6 [breth6/DJAF0-eth6]
+[INFO] Bridged DJAF1 [grp3] to interface eth2 [breth2/DJAF1-eth2]
+[INFO] Bridged PIERROT1 [grp6] to interface eth4 [breth4/PIERROT1-eth4]
+[INFO] Executing start for node PIERROT1
+[INFO] Executing start for node PIERROT0
+[INFO] Executing start for node PIERROT2
+[INFO] Executing start for node DJAF1
+[INFO] Executing start for node DJAF0
+[INFO] Executing start for node DJAF2
+[INFO] Executing start for node SAMIR0
+[INFO] Executing start for node SAMIR1
+[INFO] Executing start for node SAMIR2
+[INFO] Executing start for node SAMIR3
+[INFO] The network has been started!
+2019/12/20 22:40:49 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+2019/12/20 22:40:49 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+2019/12/20 22:40:49 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+Cannot find device "grp6"
+Cannot find device "grp6"
+2019/12/20 22:40:49 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+2019/12/20 22:40:49 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+2019/12/20 22:40:49 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+Cannot find device "grp8"
+2019/12/20 22:40:49 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+Cannot find device "grp8"
+2019/12/20 22:40:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 34 usec, Reason: R+, L+
+
+2019/12/20 22:40:49 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:40:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 26 usec, Reason: R+, L+
+
+2019/12/20 22:40:49 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:40:49 OSPF6: Neighbor state change 1.2.3.3%DJAF1-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 57 usec, Reason: L+
+
+2019/12/20 22:40:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 51 usec, Reason: L+
+
+2019/12/20 22:40:50 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+2019/12/20 22:40:50 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+2019/12/20 22:40:50 warnings: ZEBRA: [EC 4043309105] Disabling MPLS support (no kernel support)
+2019/12/20 22:40:50 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 62 usec, Reason: L+, L-
+
+2019/12/20 22:40:50 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 38 usec, Reason: L+, L-
+
+2019/12/20 22:40:51 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:51 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 62 usec, Reason: L+, L-
+
+2019/12/20 22:40:51 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:51 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 104 usec, Reason: L+, L-
+
+2019/12/20 22:40:51 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:51 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 102 usec, Reason: L+, L-
+
+2019/12/20 22:40:51 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:51 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 133 usec, Reason: L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 146 usec, Reason: R+, L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 202 usec, Reason: L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 289 usec, Reason: R+, L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 147 usec, Reason: L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 104 usec, Reason: R+, L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.8%SAMIR2-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 100 usec, Reason: L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 60 usec, Reason: R+, L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 86 usec, Reason: R+, L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.4%SAMIR0-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.2%SAMIR0-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.4%SAMIR2-eth3: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.2%SAMIR2-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 142 usec, Reason: L+, L-
+
+2019/12/20 22:40:59 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 169 usec, Reason: L+, L-
+
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.9%SAMIR2-eth2: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.9%SAMIR2-eth2: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.3%DJAF1-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.3%DJAF0-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.3%DJAF0-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.3%SAMIR3-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.3%SAMIR3-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.3%SAMIR1-eth3: [Down]->[Init] (HelloReceived)
+2019/12/20 22:40:59 OSPF6: Neighbor state change 1.2.3.3%SAMIR1-eth3: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:00 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:00 OSPF6: Neighbor state change 1.2.3.10%DJAF0-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:00 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 69 usec, Reason: R+, L+, L-
+
+2019/12/20 22:41:00 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:00 OSPF6: Neighbor state change 1.2.3.10%DJAF1-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:00 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 107 usec, Reason: L+, L-
+
+2019/12/20 22:41:00 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:00 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 119 usec, Reason: R+, L+, L-
+
+2019/12/20 22:41:00 OSPF6: Neighbor state change 1.2.3.6%SAMIR1-eth2: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:00 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:00 OSPF6: Neighbor state change 1.2.3.6%PIERROT2-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:00 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 100 usec, Reason: L+, L-
+
+2019/12/20 22:41:00 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:00 OSPF6: Neighbor state change 1.2.3.5%SAMIR1-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:00 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 76 usec, Reason: R+, L+, L-
+
+2019/12/20 22:41:00 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:00 OSPF6: Neighbor state change 1.2.3.5%PIERROT2-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:00 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 114 usec, Reason: L+, L-
+
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.7%PIERROT0-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.7%PIERROT1-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.7%PIERROT0-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.7%PIERROT1-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.1%SAMIR1-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.1%SAMIR1-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.1%SAMIR3-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.1%SAMIR3-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.8%SAMIR2-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.8%DJAF2-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.8%DJAF2-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.4%SAMIR2-eth3: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.2%SAMIR0-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.4%SAMIR0-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.2%PIERROT0-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.2%PIERROT0-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.2%PIERROT1-eth0: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.2%PIERROT1-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.2%SAMIR2-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.9%DJAF2-eth1: [Down]->[Init] (HelloReceived)
+2019/12/20 22:41:09 OSPF6: Neighbor state change 1.2.3.9%DJAF2-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:10 OSPF6: Neighbor state change 1.2.3.10%DJAF0-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:10 OSPF6: Neighbor state change 1.2.3.10%DJAF1-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:10 OSPF6: Neighbor state change 1.2.3.6%SAMIR1-eth2: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:10 OSPF6: Neighbor state change 1.2.3.6%PIERROT2-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:10 OSPF6: Neighbor state change 1.2.3.5%SAMIR1-eth1: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:10 OSPF6: Neighbor state change 1.2.3.5%PIERROT2-eth0: [Init]->[Twoway] (2-WayReceived)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.2%SAMIR2-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.3%DJAF1-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.10%DJAF1-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.8%SAMIR2-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.9%SAMIR2-eth2: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.4%SAMIR2-eth3: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.9%SAMIR2-eth2: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.3%DJAF1-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.9%SAMIR2-eth2: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:29 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:29 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 91 usec, Reason: R+, L+
+
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.3%DJAF1-eth0: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:29 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:29 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:29 OSPF6: Neighbor state change 1.2.3.9%SAMIR2-eth2: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:29 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 138 usec, Reason: R+, L+
+
+2019/12/20 22:41:29 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:30 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 403 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:30 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 202 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:34 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:34 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:34 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 279 usec, Reason: R+, R-
+
+2019/12/20 22:41:34 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 317 usec, Reason: R+, R-
+
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.5%PIERROT2-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.6%PIERROT2-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.2%SAMIR0-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.4%SAMIR0-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%DJAF0-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.10%DJAF0-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.8%SAMIR2-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%DJAF0-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.8%SAMIR2-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 145 usec, Reason: R+, N+, L+
+
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%DJAF0-eth0: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.8%SAMIR2-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 302 usec, Reason: R+, L+
+
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 243 usec, Reason: R+
+
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 369 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 725 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 408 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.1%SAMIR3-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.1%SAMIR1-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%SAMIR3-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.5%SAMIR1-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.6%SAMIR1-eth2: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.4%SAMIR0-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.2%SAMIR0-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.1%SAMIR1-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.1%SAMIR3-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%SAMIR1-eth3: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.4%SAMIR2-eth3: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%SAMIR3-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.2%SAMIR0-eth0: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 125 usec, Reason: R+, N+, L+
+
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.4%SAMIR2-eth3: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.4%SAMIR0-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 131 usec, Reason: R+, N+
+
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.1%SAMIR3-eth0: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.4%SAMIR0-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%SAMIR3-eth1: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 212 usec, Reason: R+, L+
+
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.1%SAMIR1-eth0: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 166 usec, Reason: R+
+
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 234 usec, Reason: R+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 298 usec, Reason: R+
+
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.2%SAMIR0-eth0: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.4%SAMIR2-eth3: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 172 usec, Reason: R+, N+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 354 usec, Reason: R+, N+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 602 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 461 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1689 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1173 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%SAMIR1-eth3: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.2%SAMIR2-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.3%SAMIR1-eth3: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 293 usec, Reason: L+
+
+2019/12/20 22:41:39 OSPF6: Neighbor state change 1.2.3.2%SAMIR2-eth0: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:39 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:39 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 187 usec, Reason: L+
+
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.8%DJAF2-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.9%DJAF2-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.10%DJAF0-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.10%DJAF1-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.8%DJAF2-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.9%DJAF2-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.10%DJAF0-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.10%DJAF1-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 205 usec, Reason: R+, N+, L+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.10%DJAF0-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 167 usec, Reason: R+, L+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 14 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.8%DJAF2-eth0: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 48 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 254 usec, Reason: R+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 202 usec, Reason: R+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 13 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 218 usec, Reason: R+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 47 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 48 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 48 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.10%DJAF1-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.9%DJAF2-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 285 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 232 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 279 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 272 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 383 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 253 usec, Reason: N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 198 usec, Reason: N+
+
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.2%PIERROT1-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.7%PIERROT1-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.6%SAMIR1-eth2: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.2%PIERROT1-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.6%SAMIR1-eth2: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 116 usec, Reason: R+, N+, L+
+
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.2%PIERROT1-eth0: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 34 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.6%SAMIR1-eth2: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 33 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 196 usec, Reason: R+, L+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 30 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 29 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 27 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 362 usec, Reason: R+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 165 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 306 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 354 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 226 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 292 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.2%PIERROT0-eth0: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.7%PIERROT0-eth1: [Twoway]->[ExStart] (AdjOK?)
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.5%SAMIR1-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 339 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.2%PIERROT0-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.5%SAMIR1-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 312 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 120 usec, Reason: R+, N+, L+
+
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.2%PIERROT0-eth0: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 99 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 135 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 134 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 354 usec, Reason: N+
+
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 100 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 94 msec
+2019/12/20 22:41:40 OSPF6: Neighbor state change 1.2.3.5%SAMIR1-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 126 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 124 msec
+2019/12/20 22:41:40 OSPF6: SPF: Scheduled in 126 msec
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 511 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 210 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 366 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 305 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 174 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 198 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 259 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 328 usec, Reason: R+, N+
+
+2019/12/20 22:41:40 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 284 usec, Reason: R+, N+
+
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.7%PIERROT1-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.7%PIERROT0-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.6%PIERROT2-eth1: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.5%PIERROT2-eth0: [ExStart]->[ExChange] (NegotiationDone)
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.7%PIERROT1-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 118 usec, Reason: R+, N+, L+
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.7%PIERROT0-eth1: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.6%PIERROT2-eth1: [ExChange]->[Full] (ExchangeDone)
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 204 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.7%PIERROT1-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 377 usec, Reason: R+, L+
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.5%PIERROT2-eth0: [ExChange]->[Loading] (ExchangeDone)
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 48 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.7%PIERROT0-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 205 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 213 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 174 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 530 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 47 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 47 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 238 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 198 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 295 usec, Reason: R+, R-
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 47 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 48 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 48 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 263 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 461 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 376 usec, Reason: R+, R-, N+, L+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 491 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 202 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 190 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 642 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 220 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 250 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 325 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 51 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 53 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 51 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.9%DJAF2-eth1: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 46 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 46 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 43 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 42 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 38 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 174 usec, Reason: N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 287 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 150 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 187 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 259 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 515 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 648 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1708 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2145 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 978 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 40 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 36 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 37 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 37 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 35 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 40 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 37 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 37 msec
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 37 msec
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.2%SAMIR2-eth0: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:44 OSPF6: Neighbor state change 1.2.3.3%SAMIR1-eth3: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:44 OSPF6: SPF: Scheduled in 24 msec
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 111 usec, Reason: N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1710 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 589 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 631 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 4685 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 3325 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 6935 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 9152 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 11498 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:44 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 18914 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: Neighbor state change 1.2.3.5%PIERROT2-eth0: [Loading]->[Full] (LoadingDone)
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 209 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1081 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2216 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 876 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 50 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 6458 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 806 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 45 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 949 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 906 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2829 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 37 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1010 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 44 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 45 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 46 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1099 usec, Reason: N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2682 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1167 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2384 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1794 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1604 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 3115 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1592 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 5495 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 13400 usec, Reason: R+, R-, N+
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 51 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 52 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 52 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1435 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1875 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1537 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2110 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1122 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 49 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 47 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 35 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 38 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 36 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1356 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1484 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 5556 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 11372 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2183 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1275 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1371 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2914 usec, Reason: R+, R-
+
+2019/12/20 22:41:49 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 5138 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1018 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1135 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1051 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 929 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 3916 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1112 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1146 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF: Scheduled in 0 msec
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 1302 usec, Reason: R+, R-
+
+2019/12/20 22:41:54 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2892 usec, Reason: R+, R-
+

@@ -1,0 +1,152 @@
+[
+  {
+    "filename": "DJAF0_boot",
+    "external": true,
+    "peers": [
+      {
+        "nom": "grp5"
+      },
+      {
+        "nom": "grp8"
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "DJAF0-eth0"
+      },
+      {
+        "name": "DJAF0-eth1"
+      }
+    ]
+  },
+  {
+    "filename": "DJAF1_boot",
+    "external": true,
+    "peers": [
+      {
+        "nom": "grp3"
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "DJAF1-eth0"
+      },
+      {
+        "name": "DJAF1-eth1"
+      }
+    ]
+  },
+  {
+    "filename": "DJAF2_boot",
+    "external": false,
+    "interfaces": [
+      {
+        "name": "DJAF2-eth0"
+      },
+      {
+        "name": "DJAF2-eth1"
+      }
+    ]
+  },
+  {
+    "filename": "PIERROT0_boot",
+    "external": false,
+    "interfaces": [
+      {
+        "name": "PIERROT0-eth0"
+      },
+      {
+        "name": "PIERROT0-eth1"
+      }
+    ]
+  },
+  {
+    "filename": "PIERROT1_boot",
+    "external": true,
+    "peers": [
+      {
+        "nom": "grp6"
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "PIERROT1-eth0"
+      },
+      {
+        "name": "PIERROT1-eth1"
+      }
+    ]
+  },
+  {
+    "filename": "PIERROT2_boot",
+    "external": false,
+    "interfaces": [
+      {
+        "name": "PIERROT2-eth0"
+      },
+      {
+        "name": "PIERROT2-eth1"
+      }
+    ]
+  },
+  {
+    "filename": "SAMIR0_boot",
+    "external": false,
+    "interfaces": [
+      {
+        "name": "SAMIR0-eth0"
+      },
+      {
+        "name": "SAMIR0-eth1"
+      }
+    ]
+  },
+  {
+    "filename": "SAMIR1_boot",
+    "external": false,
+    "interfaces": [
+      {
+        "name": "SAMIR1-eth0"
+      },
+      {
+        "name": "SAMIR1-eth1"
+      },
+      {
+        "name": "SAMIR1-eth2"
+      },
+      {
+        "name": "SAMIR1-eth3"
+      }
+    ]
+  },
+   {
+    "filename": "SAMIR2_boot",
+    "external": false,
+    "interfaces": [
+      {
+        "name": "SAMIR2-eth0"
+      },
+      {
+        "name": "SAMIR2-eth1"
+      },
+      {
+        "name": "SAMIR2-eth2"
+      },
+      {
+        "name": "SAMIR2-eth3"
+      }
+    ]
+  },
+  {
+    "filename": "SAMIR3_boot",
+    "external": false,
+    "interfaces": [
+      {
+        "name": "SAMIR3-eth0"
+      },
+      {
+        "name": "SAMIR3-eth1"
+      }
+    ]
+  }
+]
