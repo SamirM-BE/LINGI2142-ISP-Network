@@ -23,7 +23,7 @@ From now on, the network is correctly running
 
 (See more detailed instructions in the report)
 
-**Contributors**: MARINI Samir, Roose Pierre-Rodéric, SALEY ABDOU DJafarou
+**Contributors**: MARINI Samir ([@SamirM-B](https://github.com/SamirM-BE "@SamirM-B")E), Roose Pierre-Rodéric ([@proose](https://github.com/proose "@proose")), SALEY ABDOU DJafarou ([@Djafa](https://github.com/Djafa "@Djafa"))
 
 
 # Simulated network : 
